@@ -33,7 +33,6 @@ If the user's vault does not match this workflow, offer three options:
 
 - Use a minimal fallback: write one dated note and one task summary note in locations chosen by the user.
 - Manually create or adapt the task-centric structure by following the original Reddit post.
-- Download or clone the sample template vault, then record Codex memory into that new vault once the user confirms its location.
+- Download or clone the sample template vault, then record agent work memory into that new vault once the user confirms its location.
 
 Do not automatically download, clone, or merge the template into an existing vault. Ask first, because this can create folders, plugin settings, and templates that may conflict with the user's current vault.
-

@@ -1,3 +1,3 @@
 display_name: Obsidian Task Memory
-short_description: Record Codex work into Obsidian daily and task notes.
-default_prompt: Record today's Codex work into my Obsidian daily note and related task note following the vault convention.
+short_description: Record AI agent work into Obsidian daily and task notes.
+default_prompt: Record today's agent work into my Obsidian daily note and related task note following the vault convention.

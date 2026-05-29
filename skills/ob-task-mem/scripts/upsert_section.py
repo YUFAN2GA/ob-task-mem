@@ -9,7 +9,7 @@ from pathlib import Path
 
 
 def marker(slug: str, kind: str) -> str:
-    return f"<!-- codex:{slug}:{kind} -->"
+    return f"<!-- ob-task-mem:{slug}:{kind} -->"
 
 
 def upsert(text: str, slug: str, body: str, heading: str | None) -> str:

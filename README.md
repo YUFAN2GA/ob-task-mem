@@ -1,28 +1,34 @@
-# Codex Obsidian Task Memory Skill
+# Obsidian Task Memory Skill
 
-`ob-task-mem` is a Codex skill for recording Codex project work into an Obsidian vault with two complementary views:
+`ob-task-mem` is a portable agent skill/workflow for recording AI agent project work into an Obsidian vault with two complementary views:
 
 - a daily note entry that preserves process material, attempts, commands, files, and verification;
 - a task note entry that keeps the concise task story for future reading.
 
 The skill is designed for task-centric Obsidian vaults with daily notes, task notes, project notes, project tags, and optional Dataview/Tasks queries. It first reads the user's vault convention and avoids forcing a structure onto an unrelated vault.
 
-## Install
+The skill is packaged as a `SKILL.md` folder, so it works directly with Codex and can be adapted by other agent runtimes that support skill-style instruction folders.
+
+## Install With Codex
 
 Install directly from this repository with Codex's skill installer:
 
 ```text
-$skill-installer install https://github.com/YUFAN2GA/codex-ob-task-mem/tree/main/skills/ob-task-mem
+$skill-installer install https://github.com/YUFAN2GA/ob-task-mem/tree/main/skills/ob-task-mem
 ```
 
 After installation, restart Codex so the skill list is refreshed.
 
+## Use With Other Agents
+
+For Claude Code, OpenClaw, custom agents, or other compatible runtimes, copy `skills/ob-task-mem/` into that runtime's skill/instructions directory and make sure the agent can run the optional helper script with Python 3.
+
 ## Use
 
-Ask Codex to record the current project work into Obsidian:
+Ask the agent to record the current project work into Obsidian:
 
 ```text
-Use ob-task-mem to record today's Codex work into my Obsidian daily note and related task note.
+Use ob-task-mem to record today's agent work into my Obsidian daily note and related task note.
 ```
 
 If your vault does not already have a compatible structure, the skill will offer a simple fallback or point you to the task-centric vault reference.

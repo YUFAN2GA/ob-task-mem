@@ -54,7 +54,7 @@ Prefer plain Obsidian Tasks syntax over custom Dataview task syntax because it i
 
 If the user's vault does not match this structure, do not mutate it automatically. Suggest that the user manually download, recreate, or adapt a task-centric starter vault based on the linked workflow, then rerun the memory-recording task after they have chosen daily note, task note, and project note locations.
 
-If the user asks Codex to set it up, confirm whether they want to:
+If the user asks the agent to set it up, confirm whether they want to:
 
 - download the sample vault zip into a new folder,
 - clone the GitHub repository,
